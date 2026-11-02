@@ -23,6 +23,10 @@ gcloud init
 gcloud auth application-default login
 gcloud config set project trst-score
 ```
+# another option:
+```
+gcloud auth application-default login --no-launch-browser
+```
 # Check your account and project:
 ```
 gcloud auth list
